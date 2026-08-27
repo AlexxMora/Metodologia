@@ -1,0 +1,48 @@
+# Descargar lista de Alumnos
+1. Entrar usuario
+ 1.1 Validar identificador y contraseña
+  1.2 Sistema de Siia Backend
+    1.2.1 Valida el tipo de Dato(DTO)
+    1.2.2  Utilizar la informacion de acuerdo al Diagrama de Flujo     (Service)
+    1.2.3 Valida en Base de datos(Repository)
+     1.2.3.1 Usuario Exista
+     1.2.3.2 Contraseña Exista y identificador
+ 1.2.4 Respuesta Correcta OK
+2. Entrar al apartado de personal Academico
+ 1.1 Cargar opciones mostradas en la pagina
+  1.2 Tomar apartados disponibles de la base de datos
+   1.2.3 Mostrar apartados a usuario
+3. Listas y Actas
+ 1.1 Usuario busca lista y acta deseada
+  1.1.2 Sistema busca lista y acta en base de datos
+   1.1.3 Base de datos arroja lista y acta
+    1.1.4 Sistema muestra lista y acta a usuario
+ 1.2 Usuario selecciona lista y acta
+4. DESCARGAR LA LISTA DE LA MATERIA.
+ 1.1 Usuario presiona botón descargar lista
+ 1.2 Sistema de siia backend 
+  1.1.2 Valida el tipo de Dato(DTO)
+  1.2.2  Utilizar la informacion de acuerdo al Diagrama de Flujo     (Service)
+    1.2.3 Valida en Base de datos(Repository)
+     1.2.3.1 Materia exista
+     1.2.3.2 Lista alumnos exista
+ 1.2.4 respuesta correcta OK
+ 1.3 Sistema revisa lugar para guardar
+ 1.4 Sistema descarga archivo y muestra mensaje a usuario
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
