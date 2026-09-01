@@ -1,0 +1,32 @@
+Algoritmo EntradaVehiculos
+
+    // Declaración de variables
+    Definir matrícula Como Cadena
+    Definir vehículoRegistrado Como Logico
+    Definir espaciosDisponibles Como Entero
+
+    // Asignación de valores
+    espaciosDisponibles <- 10
+    
+    // Simulación de base de datos usando verdadero o falso
+    vehículoRegistrado <- Verdadero
+
+    // Entrada de datos
+    Escribir "Ingrese su matrícula:"
+    Leer matrícula
+
+    // Proceso de validación
+    Si vehículoRegistrado = Verdadero Entonces
+        // Si el vehículo SÍ está registrado, revisamos el espacio
+        Si espaciosDisponibles > 0 Entonces
+            Escribir "Acceso permitido, bienvenido."
+            espaciosDisponibles <- espaciosDisponibles - 1
+        SiNo
+            Escribir "Acceso denegado, estacionamiento lleno."
+        FinSi
+    SiNo
+        // Si no está registrado
+        Escribir "Acceso denegado, vehículo no registrado."
+    FinSi
+
+FinAlgoritmo
