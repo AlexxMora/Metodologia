@@ -1,0 +1,56 @@
+
+
+
+Universidad Autónoma de Baja California Sur
+Departamento Académico de Sistemas Computacionales
+
+Investigación y Desarrollo de un Pseudocódigo
+
+Por:
+Rudy Alexei Morales Mendez
+
+Metodología de la Programación
+Ing. En Desarrollo de Software (IDS), Semestre I.
+Ivan Alexis Cota Espinosa
+
+La Paz, Baja California Sur,  3 de Septiembre de 2026.
+
+INVESTIGACIÓN
+
+¿Qué es un pseudocódigo?
+Es una forma de escribir los pasos para resolver un problema usando un lenguaje sencillo que mezcla la forma en que hablamos con la estructura del código. No es un lenguaje de computadora real, sino como un borrador fácil de entender sin necesidad de seguir reglas complicadas.
+
+¿Para qué se utiliza?
+Sirve para organizar y entender las instrucciones de un problema antes de empezar a programar en la computadora. Nos ayuda a ver con claridad qué datos necesitamos pedir, qué operaciones hacer y qué resultado queremos mostrar.
+
+¿Qué relación existe entre un algoritmo y un pseudocódigo?
+El algoritmo es la idea y la secuencia de pasos lógicos para resolver un problema. El pseudocódigo es “casi” llevar la idea a la práctica, redactando paso a paso cómo queremos que funcione el programa antes de pasarlo a la computadora.
+
+¿Cuáles son las principales características de un pseudocódigo?
+* Es sencillo de leer y fácil de escribir, ya que no sigue reglas de programación estrictas. 
+* Siempre tiene un inicio y un fin. 
+* Sirve como base para organizar las ideas antes de empezar a programar. 
+
+¿Qué ventajas tiene desarrollar un pseudocódigo antes de comenzar a programar?
+Te ayuda a tener una visión clara de cómo funcionará el código y te ahorra tiempo y errores en la computadora, ya que primero detectas y corriges las fallas en la lógica del problema.
+
+PSEUDOCÓDIGO
+
+      Problema seleccionado: Determinar si una persona es mayor o menor de edad.
+      Entrada: Edad(como un número entero).
+      Proceso: Comparar si edad es mayor o igual a 18.
+      Salida: Mensaje en pantalla indicando si la persona es mayor o menor de edad.
+      Pseudocódigo:
+
+      INICIO
+      Definir edad como Entero
+          Escribir "Ingresa tu edad:"
+          Leer edad
+          Si edad >= 18 Entonces
+            Escribir "Eres mayor de edad"
+            SiNo
+              Escribir "Eres menor de edad."
+            FinSi
+      FIN
+
+
